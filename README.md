@@ -19,6 +19,14 @@ This repository is for creators who already keep drafts, course notes, interview
 4. Use `checklists/release-checklist.md` before generating images or publishing.
 5. Archive the final post package with the structure in `examples/sample-output-structure.md`.
 
+## Try the Complete Mini Run
+
+If the idea is still too abstract, start with the worked example:
+
+`examples/complete-mini-run.md`
+
+It shows one Obsidian source note becoming title candidates, body draft, carousel plan, image prompts, final archive structure, and a small `manifest.json`.
+
 ## Recommended Workflow
 
 ```text
@@ -50,6 +58,10 @@ https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workfl
 
 Current public price: 79.8 CNY.
 
+Before buying, use the upgrade checklist:
+
+`checklists/upgrade-decision.md`
+
 ## Good Fit
 
 - You already use Obsidian for notes, drafts, course material, or content ideas.
@@ -68,9 +80,10 @@ Current public price: 79.8 CNY.
 
 - `templates/xhs-post-brief.md`: Obsidian note template for one post idea.
 - `checklists/release-checklist.md`: pre-publish QA checklist.
+- `checklists/upgrade-decision.md`: decide whether the free starter is enough or the full pack is useful.
 - `examples/sample-output-structure.md`: recommended folder structure for archived post packages.
+- `examples/complete-mini-run.md`: a complete example from one note to a publishable package.
 
 ## Keywords
 
 Obsidian, Xiaohongshu, XHS, content workflow, AI workflow, carousel posts, creator workflow, note-to-post workflow.
-
