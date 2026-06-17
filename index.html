@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>小红书收藏整理到 Obsidian Starter | 免费模板</title>
+  <meta name="description" content="免费 XHS Obsidian Workflow Starter：把小红书收藏、素材卡片、选题、标题、正文、配图提示词和发布包整理进 Obsidian，并导向 79.8 元完整工作流包。">
+  <link rel="canonical" href="https://ronnie2025.github.io/xhs-obsidian-workflow-starter/">
+  <link rel="icon" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/cover.png">
+  <meta property="og:title" content="小红书收藏整理到 Obsidian Starter">
+  <meta property="og:description" content="免费模板：先整理小红书收藏，再把素材卡片变成发布包。">
+  <meta property="og:url" content="https://ronnie2025.github.io/xhs-obsidian-workflow-starter/">
+  <meta property="og:image" content="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow-cover.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "XHS Obsidian Workflow Starter",
+    "codeRepository": "https://github.com/Ronnie2025/xhs-obsidian-workflow-starter",
+    "programmingLanguage": "Markdown",
+    "description": "Free Markdown templates for sorting Xiaohongshu saved notes into Obsidian source cards and publishing packages.",
+    "license": "https://github.com/Ronnie2025/xhs-obsidian-workflow-starter/blob/main/LICENSE"
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #111827;
+      --muted: #5d6675;
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --line: #dbe4ef;
+      --blue: #155eef;
+      --green: #0f8f6f;
+      --deep: #0d1b2a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.62;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    .topbar { background: #fff; border-bottom: 1px solid var(--line); }
+    .topbar .wrap {
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand { color: var(--deep); font-weight: 900; text-decoration: none; }
+    .nav { display: flex; flex-wrap: wrap; gap: 14px; color: var(--muted); font-size: 14px; }
+    .nav a { text-decoration: none; }
+    .hero {
+      min-height: 78vh;
+      display: grid;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(90deg, rgba(246,248,251,1) 0%, rgba(246,248,251,.96) 54%, rgba(246,248,251,.36) 100%),
+        url("https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow-cover.png") right 54% / min(34vw, 390px) auto no-repeat;
+    }
+    .hero-copy { max-width: 720px; padding: 60px 0 74px; }
+    .eyebrow {
+      display: inline-flex;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(15,143,111,.24);
+      background: rgba(15,143,111,.08);
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 850;
+    }
+    h1 { margin: 22px 0 14px; font-size: clamp(40px, 6vw, 68px); line-height: 1.05; letter-spacing: 0; }
+    h2 { margin: 0 0 18px; font-size: 30px; line-height: 1.2; letter-spacing: 0; }
+    h3 { margin: 0 0 8px; font-size: 20px; line-height: 1.24; }
+    p { margin: 0; }
+    .lead { max-width: 660px; color: var(--muted); font-size: 19px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+    .btn {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      text-decoration: none;
+      font-weight: 850;
+    }
+    .btn-primary { background: var(--blue); color: #fff; }
+    .btn-line { background: #fff; border-color: var(--line); }
+    section { padding: 54px 0; border-bottom: 1px solid var(--line); }
+    .section-white { background: #fff; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card {
+      min-height: 172px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .card p { color: var(--muted); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+    pre {
+      margin: 0;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: #e5edf8;
+      background: #0f172a;
+      border-radius: 8px;
+      padding: 18px;
+      font-size: 14px;
+      line-height: 1.62;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+    .cta { background: var(--deep); color: #fff; }
+    .cta p { color: rgba(255,255,255,.76); max-width: 780px; }
+    .footer { padding: 28px 0; background: #fff; color: var(--muted); font-size: 14px; }
+    .footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; }
+    .footer a { text-decoration: none; }
+    @media (max-width: 820px) {
+      .topbar .wrap { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .hero {
+        min-height: 760px;
+        align-items: start;
+        background:
+          linear-gradient(180deg, rgba(246,248,251,1) 0%, rgba(246,248,251,.96) 58%, rgba(246,248,251,.72) 100%),
+          url("https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow-cover.png") bottom center / min(78vw, 380px) auto no-repeat;
+      }
+      .hero-copy { padding: 42px 0 300px; }
+      .grid, .two-col { grid-template-columns: 1fr; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar">
+    <div class="wrap">
+      <a class="brand" href="./">XHS Obsidian Starter</a>
+      <div class="nav">
+        <a href="https://github.com/Ronnie2025/xhs-obsidian-workflow-starter">GitHub</a>
+        <a href="templates/xhs-collection-inbox.md">收藏模板</a>
+        <a href="templates/xhs-post-brief.md">发布模板</a>
+        <a href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-collection-organizer.html">免费分类器</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="eyebrow">免费 Obsidian 模板</span>
+        <h1>小红书收藏整理到 Obsidian Starter</h1>
+        <p class="lead">先把小红书收藏夹里的笔记分成素材卡、选题库和发布包。这个 starter 给你免费的 Markdown 模板，适合先跑通手动流程。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="templates/xhs-collection-inbox.md">下载收藏整理模板</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-collection-organizer.html">打开免费分类器</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow.html">看 79.8 元完整包</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-white">
+    <div class="wrap grid">
+      <article class="card">
+        <h3>整理收藏</h3>
+        <p>用 `xhs-collection-inbox.md` 把收藏按 usable、reference、discard 三类筛掉噪音。</p>
+      </article>
+      <article class="card">
+        <h3>生成素材卡</h3>
+        <p>把可用收藏补上读者痛点、可复用方法、自己的角度和下一步动作。</p>
+      </article>
+      <article class="card">
+        <h3>转成发布包</h3>
+        <p>用 `xhs-post-brief.md` 继续生成标题、正文、图文结构、配图提示词和归档路径。</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two-col">
+      <div>
+        <h2>复制这个最小目录</h2>
+        <pre>XHS-Obsidian/
+  00_inbox/
+  10_source-cards/
+  20_post-briefs/
+  30_publish-packages/
+  80_review/
+  90_discarded/</pre>
+      </div>
+      <div class="card">
+        <h2>什么时候该升级</h2>
+        <p>如果你每周都在重复整理素材、改标题、写正文、做配图提示词和找发布稿，完整包会比免费模板省时间。完整包仍然不提供账号运营、API key 或结果承诺。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow.html">查看完整包</a>
+          <a class="btn btn-line" href="checklists/upgrade-decision.md">看升级判断清单</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>先免费跑一批收藏，再决定是否购买</h2>
+      <p>这个 starter 的价值是筛掉不值得处理的收藏。完整包的价值是把后续标题、正文、配图提示词和发布包归档固定下来。</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-collection-organizer.html">打开免费分类器</a>
+        <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/order.html?plan=xhs-obsidian-79.80&scenario=我从 GitHub Starter 进入，想购买小红书 Obsidian 完整工作流">生成 79.8 元订单</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>MIT Starter by AI Workbench Store</span>
+      <span>
+        <a href="https://github.com/Ronnie2025/xhs-obsidian-workflow-starter">GitHub</a> ·
+        <a href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow.html">Full Pack</a> ·
+        <a href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/virtual-products.html">More Products</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

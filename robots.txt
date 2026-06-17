@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ronnie2025.github.io/xhs-obsidian-workflow-starter/sitemap.xml

@@ -7,17 +7,27 @@ This repository is for creators who already keep drafts, course notes, interview
 ## What This Starter Gives You
 
 - A reusable Obsidian note template for one Xiaohongshu post.
+- A collection inbox template for turning saved Xiaohongshu notes into source cards.
 - A release checklist for title, body, carousel pages, image prompts, tags, and publishing order.
 - A sample output structure for keeping every post package easy to review later.
 - A simple boundary: this is a workflow scaffold, not a traffic guarantee or account operation service.
 
 ## Quick Start
 
-1. Copy `templates/xhs-post-brief.md` into your Obsidian vault.
-2. Create one note per Xiaohongshu post idea.
-3. Fill in the source material, reader, pain point, promise, and proof.
-4. Use `checklists/release-checklist.md` before generating images or publishing.
-5. Archive the final post package with the structure in `examples/sample-output-structure.md`.
+1. If your Xiaohongshu saved notes are messy, copy `templates/xhs-collection-inbox.md` into your Obsidian vault first.
+2. Move 5-20 saved notes into source cards and tag them as `usable`, `reference`, or `discard`.
+3. Copy `templates/xhs-post-brief.md` when one source card is ready to become a post.
+4. Fill in the source material, reader, pain point, promise, and proof.
+5. Use `checklists/release-checklist.md` before generating images or publishing.
+6. Archive the final post package with the structure in `examples/sample-output-structure.md`.
+
+## Free Collection Organizer
+
+If you want the browser tool to generate the first folder structure, tags, and source cards for you, use:
+
+https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-collection-organizer.html
+
+This is the best starting point if your current problem is not writing, but sorting too many Xiaohongshu saved notes into an Obsidian workflow.
 
 ## Try the Complete Mini Run
 
@@ -30,7 +40,9 @@ It shows one Obsidian source note becoming title candidates, body draft, carouse
 ## Recommended Workflow
 
 ```text
-Raw note
+Saved Xiaohongshu note
+  -> collection inbox
+  -> source card
   -> content brief
   -> title candidates
   -> body draft
@@ -79,6 +91,7 @@ Before buying, use the upgrade checklist:
 ## Files
 
 - `templates/xhs-post-brief.md`: Obsidian note template for one post idea.
+- `templates/xhs-collection-inbox.md`: Obsidian inbox template for sorting saved Xiaohongshu notes.
 - `checklists/release-checklist.md`: pre-publish QA checklist.
 - `checklists/upgrade-decision.md`: decide whether the free starter is enough or the full pack is useful.
 - `examples/sample-output-structure.md`: recommended folder structure for archived post packages.
@@ -86,4 +99,4 @@ Before buying, use the upgrade checklist:
 
 ## Keywords
 
-Obsidian, Xiaohongshu, XHS, content workflow, AI workflow, carousel posts, creator workflow, note-to-post workflow.
+Obsidian, Xiaohongshu, XHS, 小红书收藏整理, 小红书素材库, content workflow, AI workflow, carousel posts, creator workflow, note-to-post workflow.
