@@ -8,6 +8,7 @@ This repository is for creators who already keep drafts, course notes, interview
 
 - A reusable Obsidian note template for one Xiaohongshu post.
 - A collection inbox template for turning saved Xiaohongshu notes into source cards.
+- A content brief template for turning one source note into title candidates, carousel plans, captions, and review checks.
 - A release checklist for title, body, carousel pages, image prompts, tags, and publishing order.
 - A sample output structure for keeping every post package easy to review later.
 - A simple boundary: this is a workflow scaffold, not a traffic guarantee or account operation service.
@@ -16,8 +17,8 @@ This repository is for creators who already keep drafts, course notes, interview
 
 1. If your Xiaohongshu saved notes are messy, copy `templates/xhs-collection-inbox.md` into your Obsidian vault first.
 2. Move 5-20 saved notes into source cards and tag them as `usable`, `reference`, or `discard`.
-3. Copy `templates/xhs-post-brief.md` when one source card is ready to become a post.
-4. Fill in the source material, reader, pain point, promise, and proof.
+3. Copy `templates/xhs-content-brief.md` when one source card is ready to become a post angle.
+4. Move the final angle into `templates/xhs-post-brief.md` for title, body, carousel, and image prompts.
 5. Use `checklists/release-checklist.md` before generating images or publishing.
 6. Archive the final post package with the structure in `examples/sample-output-structure.md`.
 
@@ -33,7 +34,7 @@ This is the best starting point if your current problem is not writing, but sort
 
 Use the GitHub Release if you want one ZIP that contains only the free starter templates, examples, and checklists:
 
-https://github.com/Ronnie2025/xhs-obsidian-workflow-starter/releases/tag/v2026.06.19-starter
+https://github.com/Ronnie2025/xhs-obsidian-workflow-starter/releases/tag/v2026.06.19-content-brief
 
 ## Try the Complete Mini Run
 
@@ -102,6 +103,7 @@ Before buying, use the upgrade checklist:
 
 - `templates/xhs-post-brief.md`: Obsidian note template for one post idea.
 - `templates/xhs-collection-inbox.md`: Obsidian inbox template for sorting saved Xiaohongshu notes.
+- `templates/xhs-content-brief.md`: Obsidian content brief template for source material, reader, angle, titles, carousel plan, and review checks.
 - `checklists/release-checklist.md`: pre-publish QA checklist.
 - `checklists/upgrade-decision.md`: decide whether the free starter is enough or the full pack is useful.
 - `examples/sample-output-structure.md`: recommended folder structure for archived post packages.
