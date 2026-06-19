@@ -29,6 +29,12 @@ https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-collec
 
 This is the best starting point if your current problem is not writing, but sorting too many Xiaohongshu saved notes into an Obsidian workflow.
 
+## Download This Starter
+
+Use the GitHub Release if you want one ZIP that contains only the free starter templates, examples, and checklists:
+
+https://github.com/Ronnie2025/xhs-obsidian-workflow-starter/releases/tag/v2026.06.19-starter
+
 ## Try the Complete Mini Run
 
 If the idea is still too abstract, start with the worked example:
@@ -69,6 +75,10 @@ The complete paid pack adds the packaged Obsidian desktop plugin, install guide,
 https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow.html
 
 Current public price: 79.8 CNY.
+
+Goofish secured purchase:
+
+https://www.goofish.com/item?id=1057847823017
 
 Before buying, use the upgrade checklist:
 

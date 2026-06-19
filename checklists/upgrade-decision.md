@@ -40,3 +40,9 @@ https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workfl
 Full pack:
 
 https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow.html
+
+Goofish secured purchase:
+
+https://www.goofish.com/item?id=1057847823017
+
+The paid pack is a digital workflow package. It does not include account operation, traffic guarantee, follower guarantee, sales guarantee, API keys, or platform login support.
