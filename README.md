@@ -2,7 +2,9 @@
 
 Free starter templates for turning an Obsidian note into a Xiaohongshu post package.
 
-This repository is for creators who already keep drafts, course notes, interview notes, or reusable ideas in Obsidian, but still rebuild the Xiaohongshu publishing workflow by hand every time.
+小红书收藏整理 / Obsidian 模板 / RedNote content workflow 免费 starter：先复制内容 Brief、收藏整理模板和发布包模板，再决定是否需要 79.8 元完整工作流包。
+
+This repository is for creators who already keep drafts, course notes, interview notes, or reusable ideas in Obsidian, but still rebuild the Xiaohongshu / RedNote publishing workflow by hand every time.
 
 ## What This Starter Gives You
 
@@ -34,7 +36,11 @@ This is the best starting point if your current problem is not writing, but sort
 
 Use the GitHub Release if you want one ZIP that contains only the free starter templates, examples, and checklists:
 
-https://github.com/Ronnie2025/xhs-obsidian-workflow-starter/releases/tag/v2026.06.19-content-brief
+https://github.com/Ronnie2025/xhs-obsidian-workflow-starter/releases/tag/v2026.06.19-gist-bridge
+
+If you only want to copy the content brief first, use the public Gist:
+
+https://gist.github.com/Ronnie2025/b375180151e6272fe24b88730c90020c
 
 ## Try the Complete Mini Run
 
