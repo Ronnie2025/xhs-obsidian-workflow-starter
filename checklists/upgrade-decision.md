@@ -39,9 +39,9 @@ https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workfl
 
 Full pack:
 
-https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow.html
+https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow-xianyu.html
 
-Goofish secured purchase:
+The purchase page includes a buyer note and direct Goofish link. Direct Goofish secured purchase:
 
 https://www.goofish.com/item?id=1057847823017
 

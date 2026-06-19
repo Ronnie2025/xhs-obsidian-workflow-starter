@@ -79,11 +79,11 @@ The free starter here only contains lightweight templates and checklists.
 
 The complete paid pack adds the packaged Obsidian desktop plugin, install guide, first-run workflow, prompt guide, troubleshooting FAQ, sample post packages, delivery scripts, and listing copy:
 
-https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow.html
+https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xhs-obsidian-workflow-xianyu.html
 
 Current public price: 79.8 CNY.
 
-Goofish secured purchase:
+This purchase page includes the Goofish secured purchase link, buyer note, delivery boundary, and fit-check links. Direct Goofish link:
 
 https://www.goofish.com/item?id=1057847823017
 
